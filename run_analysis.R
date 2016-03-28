@@ -51,4 +51,4 @@ label = data.mean.std$label)
 ,mean)
 
 # write the data to a table
-write.table(format(aggr.data, scientific=T), "tidy.txt",row.names=F, col.names=F, quote=2)
+write.table(tidyData, './tidyData.txt',row.names=FALSE,sep='\t')
